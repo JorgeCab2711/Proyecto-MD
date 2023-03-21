@@ -1,0 +1,487 @@
+Edad,Causa de muerte,Total,Hombres,Mujeres
+Todas las edades,Todas las causas,80876,45513,35363
+Todas las edades,"Neumonía, organismo no especificado",6911,3748,3163
+Todas las edades,Infarto agudo del miocardio,5564,2940,2624
+Todas las edades,"Diabetes mellitus, no especificada",4282,1743,2539
+Todas las edades,"Agresión con disparo de otras armas de fuego, y las no especificadas",3278,2875,403
+Todas las edades,Exposición a factores no especificados,3060,2477,583
+Todas las edades,Fibrosis y cirrosis del hígado,2371,1556,815
+Todas las edades,Otras gastroenteritis y colitis de origen infeccioso y no especificado,2056,1036,1020
+Todas las edades,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",1739,853,886
+Todas las edades,Diabetes mellitus no insulinodependiente,1598,671,927
+Todas las edades,Insuficiencia cardíaca,1431,670,761
+Todas las edades,Tumor maligno del hígado y de las vías biliares intrahepáticas,1357,638,719
+Todas las edades,Enfermedad renal crónica,1357,760,597
+Todas las edades,Tumor maligno del estómago,1348,641,707
+Todas las edades,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",1208,1012,196
+Todas las edades,Enfermedad renal crónica,937,496,441
+Todas las edades,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",7510,3862,3648
+Todas las edades,Otras causas,34869,19535,15334
+Menos de 1 día,Todas las causas,262,145,117
+Menos de 1 día,Dificultad respiratoria del recién nacido,41,24,17
+Menos de 1 día,"Otras malformaciones congénitas, no clasificadas en otra parte",34,16,18
+Menos de 1 día,"Trastornos relacionados con duración corta de la gestación y con bajo peso al nacer, no clasificados en otra parte",28,14,14
+Menos de 1 día,Asfixia del nacimiento,28,15,13
+Menos de 1 día,Síndromes de aspiración neonatal,24,15,9
+Menos de 1 día,Anencefalia y malformaciones congénitas similares,14,7,7
+Menos de 1 día,Neumonía congénita,7,3,4
+Menos de 1 día,Otras malformaciones congénitas del corazón,6,6,0
+Menos de 1 día,Agenesia renal y otras malformaciones hipoplásicas del riñón,6,3,3
+Menos de 1 día,Sepsis bacteriana del recién nacido,5,1,4
+Menos de 1 día,Otras afecciones originadas en el período perinatal,5,2,3
+Menos de 1 día,Malformaciones congénitas del pulmón,5,4,1
+Menos de 1 día,Otras enfermedades cardiopulmonares,4,3,1
+Menos de 1 día,"Malformaciones congénitas del sistema osteomuscular, no clasificadas en otra parte",4,4,0
+Menos de 1 día,Trastornos cardiovasculares originados en el período perinatal,3,1,2
+Menos de 1 día,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",13,7,6
+Menos de 1 día,Otras causas,35,20,15
+1- 6 días,Todas las causas,2144,1247,897
+1- 6 días,Dificultad respiratoria del recién nacido,420,249,171
+1- 6 días,Sepsis bacteriana del recién nacido,175,117,58
+1- 6 días,"Trastornos relacionados con duración corta de la gestación y con bajo peso al nacer, no clasificados en otra parte",174,105,69
+1- 6 días,Neumonía congénita,167,98,69
+1- 6 días,Síndromes de aspiración neonatal,161,91,70
+1- 6 días,Asfixia del nacimiento,141,83,58
+1- 6 días,"Otras malformaciones congénitas, no clasificadas en otra parte",132,69,63
+1- 6 días,Trastornos cardiovasculares originados en el período perinatal,127,74,53
+1- 6 días,Otras malformaciones congénitas del corazón,73,44,29
+1- 6 días,Coagulación intravascular diseminada en el feto y el recién nacido,46,28,18
+1- 6 días,Hemorragia pulmonar originada en el período perinatal,44,17,27
+1- 6 días,"Otros problemas respiratorios del recién nacido, originados en el período perinatal",29,21,8
+1- 6 días,"Enfisema intersticial y afecciones relacionadas, originadas en el período perinatal",20,12,8
+1- 6 días,Anencefalia y malformaciones congénitas similares,20,11,9
+1- 6 días,Hemorragia intracraneal no traumática del feto y del recién nacido,19,10,9
+1- 6 días,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",87,44,43
+1- 6 días,Otras causas,309,174,135
+7 - 27 días,Todas las causas,1516,866,650
+7 - 27 días,Neumonía congénita,222,138,84
+7 - 27 días,Sepsis bacteriana del recién nacido,177,97,80
+7 - 27 días,Dificultad respiratoria del recién nacido,110,67,43
+7 - 27 días,"Trastornos relacionados con duración corta de la gestación y con bajo peso al nacer, no clasificados en otra parte",84,39,45
+7 - 27 días,Enterocolitis necrotizante del feto y del recién nacido,76,37,39
+7 - 27 días,Coagulación intravascular diseminada en el feto y el recién nacido,74,41,33
+7 - 27 días,Otras malformaciones congénitas del corazón,68,34,34
+7 - 27 días,Trastornos cardiovasculares originados en el período perinatal,52,27,25
+7 - 27 días,Síndromes de aspiración neonatal,49,28,21
+7 - 27 días,"Otras malformaciones congénitas, no clasificadas en otra parte",45,22,23
+7 - 27 días,Asfixia del nacimiento,43,29,14
+7 - 27 días,Hemorragia pulmonar originada en el período perinatal,43,26,17
+7 - 27 días,Otros trastornos perinatales del sistema digestivo,26,11,15
+7 - 27 días,Hemorragia intracraneal no traumática del feto y del recién nacido,23,14,9
+7 - 27 días,"Otros problemas respiratorios del recién nacido, originados en el período perinatal",22,17,5
+7 - 27 días,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",83,48,35
+7 - 27 días,Otras causas,319,191,128
+28 días a menos de 1 año,Todas las causas,4280,2366,1914
+28 días a menos de 1 año,"Neumonía, organismo no especificado",1313,740,573
+28 días a menos de 1 año,Otras gastroenteritis y colitis de origen infeccioso y no especificado,405,215,190
+28 días a menos de 1 año,Otras sepsis,191,105,86
+28 días a menos de 1 año,Otras malformaciones congénitas del corazón,168,86,82
+28 días a menos de 1 año,Policitemia vera,77,41,36
+28 días a menos de 1 año,"Neumonía bacteriana, no clasificada en otra parte",70,42,28
+28 días a menos de 1 año,"Desnutrición proteicocalórica severa, no especificada",58,28,30
+28 días a menos de 1 año,"Otras malformaciones congénitas, no clasificadas en otra parte",54,30,24
+28 días a menos de 1 año,"Otros trastornos de los líquidos, de los electrólitos y del equilibrio ácido-básico",52,33,19
+28 días a menos de 1 año,"Desnutrición proteicocalórica, no especificada",50,25,25
+28 días a menos de 1 año,Otros trastornos respiratorios,50,28,22
+28 días a menos de 1 año,Afecciones respiratorias debidas a otros agentes externos,48,25,23
+28 días a menos de 1 año,Obstrucción no especificada de la respiración,48,21,27
+28 días a menos de 1 año,Sepsis bacteriana del recién nacido,41,21,20
+28 días a menos de 1 año,Neumotórax,37,25,12
+28 días a menos de 1 año,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",466,251,215
+28 días a menos de 1 año,Otras causas,1152,650,502
+1 año,Todas las causas,1411,734,677
+1 año,"Neumonía, organismo no especificado",385,212,173
+1 año,Otras gastroenteritis y colitis de origen infeccioso y no especificado,298,145,153
+1 año,Otras sepsis,41,26,15
+1 año,"Otros trastornos de los líquidos, de los electrólitos y del equilibrio ácido-básico",31,17,14
+1 año,"Desnutrición proteicocalórica, no especificada",29,13,16
+1 año,Otras malformaciones congénitas del corazón,27,14,13
+1 año,"Desnutrición proteicocalórica severa, no especificada",24,8,16
+1 año,Amiloidosis,16,10,6
+1 año,"Neumonía bacteriana, no clasificada en otra parte",16,8,8
+1 año,Obstrucción no especificada de la respiración,16,9,7
+1 año,Otros trastornos respiratorios,15,6,9
+1 año,Policitemia vera,13,9,4
+1 año,Exposición a factores no especificados,12,9,3
+1 año,Hidrocéfalo,11,5,6
+1 año,Epilepsia,10,10,0
+1 año,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",146,87,59
+1 año,Otras causas,321,146,175
+2 años,Todas las causas,563,290,273
+2 años,"Neumonía, organismo no especificado",126,68,58
+2 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,82,32,50
+2 años,Exposición a factores no especificados,15,7,8
+2 años,"Desnutrición proteicocalórica severa, no especificada",13,8,5
+2 años,"Desnutrición proteicocalórica, no especificada",11,7,4
+2 años,Ahogamiento y sumersión no especificados,10,7,3
+2 años,Otras sepsis,9,6,3
+2 años,Parálisis cerebral,9,6,3
+2 años,Epilepsia,8,4,4
+2 años,Otros trastornos respiratorios,8,4,4
+2 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",8,6,2
+2 años,"Exposición a humos, fuegos o llamas no especificados",7,3,4
+2 años,Amiloidosis,6,3,3
+2 años,"Otros trastornos de los líquidos, de los electrólitos y del equilibrio ácido-básico",6,5,1
+2 años,"Neumonía bacteriana, no clasificada en otra parte",6,4,2
+2 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",63,34,29
+2 años,Otras causas,176,86,90
+3 años,Todas las causas,296,147,149
+3 años,"Neumonía, organismo no especificado",52,31,21
+3 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,37,19,18
+3 años,Exposición a factores no especificados,17,10,7
+3 años,"Exposición a humos, fuegos o llamas no especificados",9,3,6
+3 años,Otras sepsis,7,2,5
+3 años,Ahogamiento y sumersión no especificados,7,2,5
+3 años,Epilepsia,6,2,4
+3 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",6,3,3
+3 años,Leucemia linfoide,5,4,1
+3 años,Agresión por medios no especificados,5,2,3
+3 años,Policitemia vera,4,1,3
+3 años,"Otros trastornos de los líquidos, de los electrólitos y del equilibrio ácido-básico",4,3,1
+3 años,Otros trastornos respiratorios,4,1,3
+3 años,"Obstrucción de la respiración debida a hundimiento, caída de tierra u otras sustancias",4,2,2
+3 años,"Desnutrición proteicocalórica severa, no especificada",3,1,2
+3 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",25,15,10
+3 años,Otras causas,101,46,55
+4 años,Todas las causas,224,125,99
+4 años,"Neumonía, organismo no especificado",32,18,14
+4 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,30,19,11
+4 años,Exposición a factores no especificados,15,11,4
+4 años,Otras malformaciones congénitas del corazón,7,1,6
+4 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",7,6,1
+4 años,Otros trastornos del encéfalo,6,4,2
+4 años,Fiebre del dengue hemorrágico,5,2,3
+4 años,Epilepsia,5,3,2
+4 años,Otras sepsis,4,2,2
+4 años,Tumor maligno del ojo y sus anexos,4,2,2
+4 años,Leucemia linfoide,3,3,0
+4 años,Leucemia de células de tipo no especificado,3,2,1
+4 años,Amiloidosis,3,1,2
+4 años,Obstrucción no especificada de la respiración,3,1,2
+4 años,"Parasitosis intestinal, sin otra especificación",2,1,1
+4 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",16,6,10
+4 años,Otras causas,79,43,36
+5 - 9 años,Todas las causas,781,454,327
+5 - 9 años,"Neumonía, organismo no especificado",99,53,46
+5 - 9 años,Exposición a factores no especificados,77,55,22
+5 - 9 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,63,38,25
+5 - 9 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",30,26,4
+5 - 9 años,Ahogamiento y sumersión no especificados,19,15,4
+5 - 9 años,Otras sepsis,18,7,11
+5 - 9 años,Leucemia linfoide,17,11,6
+5 - 9 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",12,6,6
+5 - 9 años,Ileo paralítico y obstrucción intestinal sin hernia,11,9,2
+5 - 9 años,Leucemia de células de tipo no especificado,9,6,3
+5 - 9 años,Epilepsia,9,6,3
+5 - 9 años,Parálisis cerebral,9,8,1
+5 - 9 años,Hidrocéfalo,9,3,6
+5 - 9 años,"Obstrucción de la respiración debida a hundimiento, caída de tierra u otras sustancias",9,7,2
+5 - 9 años,Otras enfermedades del sistema digestivo,8,2,6
+5 - 9 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",83,38,45
+5 - 9 años,Otras causas,299,164,135
+10 - 14 años,Todas las causas,875,509,366
+10 - 14 años,Exposición a factores no especificados,72,53,19
+10 - 14 años,"Neumonía, organismo no especificado",70,39,31
+10 - 14 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",58,40,18
+10 - 14 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,50,28,22
+10 - 14 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",43,32,11
+10 - 14 años,Ahogamiento y sumersión no especificados,30,25,5
+10 - 14 años,Otros estrangulamientos y ahorcamientos accidentales,26,11,15
+10 - 14 años,Enfermedad renal crónica,23,13,10
+10 - 14 años,Leucemia linfoide,22,10,12
+10 - 14 años,"Obstrucción de la respiración debida a hundimiento, caída de tierra u otras sustancias",17,8,9
+10 - 14 años,"Lesión autoinfligida intencionalmente por ahorcamiento, estrangulamiento o sofocación",17,10,7
+10 - 14 años,"Disparo de otras armas de fuego, y las no especificadas",15,11,4
+10 - 14 años,Otras sepsis,13,8,5
+10 - 14 años,Leucemia de células de tipo no especificado,11,8,3
+10 - 14 años,Neumocistosis,10,4,6
+10 - 14 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",70,43,27
+10 - 14 años,Otras causas,328,166,162
+15 - 19 años,Todas las causas,2353,1592,761
+15 - 19 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",513,439,74
+15 - 19 años,Exposición a factores no especificados,235,195,40
+15 - 19 años,"Disparo de otras armas de fuego, y las no especificadas",115,107,8
+15 - 19 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",111,95,16
+15 - 19 años,"Neumonía, organismo no especificado",57,33,24
+15 - 19 años,"Lesión autoinfligida intencionalmente por ahorcamiento, estrangulamiento o sofocación",57,30,27
+15 - 19 años,Otros estrangulamientos y ahorcamientos accidentales,52,36,16
+15 - 19 años,Agresión con objeto cortante,44,39,5
+15 - 19 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,42,26,16
+15 - 19 años,Ahogamiento y sumersión no especificados,37,31,6
+15 - 19 años,Enfermedad renal crónica,33,12,21
+15 - 19 años,Leucemia linfoide,28,16,12
+15 - 19 años,Infarto agudo del miocardio,27,13,14
+15 - 19 años,"Envenenamiento autoinfligido intencionalmente por, y exposición a otros productos químicos y sustancias nocivas, y los no especificados",27,11,16
+15 - 19 años,Agresión por medios no especificados,27,21,6
+15 - 19 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",140,70,70
+15 - 19 años,Otras causas,808,418,390
+20 - 24 años,Todas las causas,2925,2236,689
+20 - 24 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",673,613,60
+20 - 24 años,Exposición a factores no especificados,385,343,42
+20 - 24 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",179,159,20
+20 - 24 años,"Disparo de otras armas de fuego, y las no especificadas",148,136,12
+20 - 24 años,"Neumonía, organismo no especificado",75,51,24
+20 - 24 años,Agresión con objeto cortante,59,50,9
+20 - 24 años,Otros estrangulamientos y ahorcamientos accidentales,51,43,8
+20 - 24 años,Infarto agudo del miocardio,48,31,17
+20 - 24 años,Agresión por medios no especificados,47,45,2
+20 - 24 años,Ahogamiento y sumersión no especificados,43,40,3
+20 - 24 años,"Lesión autoinfligida intencionalmente por ahorcamiento, estrangulamiento o sofocación",41,35,6
+20 - 24 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,40,22,18
+20 - 24 años,Enfermedad renal crónica,35,15,20
+20 - 24 años,"Envenenamiento accidental por, y exposición al alcohol",34,31,3
+20 - 24 años,"Contacto traumático con cuchillo, espada, daga o puñal",26,25,1
+20 - 24 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",138,83,55
+20 - 24 años,Otras causas,903,514,389
+25 - 29 años,Todas las causas,2616,1954,662
+25 - 29 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",518,466,52
+25 - 29 años,Exposición a factores no especificados,275,250,25
+25 - 29 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",149,136,13
+25 - 29 años,"Disparo de otras armas de fuego, y las no especificadas",111,105,6
+25 - 29 años,"Neumonía, organismo no especificado",88,54,34
+25 - 29 años,Fibrosis y cirrosis del hígado,57,47,10
+25 - 29 años,Agresión con objeto cortante,54,48,6
+25 - 29 años,Agresión por medios no especificados,54,52,2
+25 - 29 años,Infarto agudo del miocardio,50,36,14
+25 - 29 años,Otros estrangulamientos y ahorcamientos accidentales,44,37,7
+25 - 29 años,Enfermedad alcohólica del hígado,37,31,6
+25 - 29 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,34,25,9
+25 - 29 años,"Envenenamiento accidental por, y exposición al alcohol",33,32,1
+25 - 29 años,Ahogamiento y sumersión no especificados,27,26,1
+25 - 29 años,"Lesión autoinfligida intencionalmente por ahorcamiento, estrangulamiento o sofocación",25,21,4
+25 - 29 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",160,93,67
+25 - 29 años,Otras causas,900,495,405
+30 - 34 años,Todas las causas,2784,1965,819
+30 - 34 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",403,358,45
+30 - 34 años,Exposición a factores no especificados,240,208,32
+30 - 34 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",146,129,17
+30 - 34 años,Fibrosis y cirrosis del hígado,104,86,18
+30 - 34 años,"Disparo de otras armas de fuego, y las no especificadas",103,90,13
+30 - 34 años,"Neumonía, organismo no especificado",86,56,30
+30 - 34 años,Enfermedad alcohólica del hígado,79,65,14
+30 - 34 años,Infarto agudo del miocardio,68,46,22
+30 - 34 años,"Diabetes mellitus, no especificada",60,30,30
+30 - 34 años,"Envenenamiento accidental por, y exposición al alcohol",59,52,7
+30 - 34 años,Trastornos mentales y del comportamiento debidos al uso de alcohol,49,46,3
+30 - 34 años,Agresión por medios no especificados,42,39,3
+30 - 34 años,Agresión con objeto cortante,40,32,8
+30 - 34 años,Ahogamiento y sumersión no especificados,34,34,0
+30 - 34 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,33,14,19
+30 - 34 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",178,102,76
+30 - 34 años,Otras causas,1060,578,482
+35 - 39 años,Todas las causas,3078,2103,975
+35 - 39 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",345,308,37
+35 - 39 años,Exposición a factores no especificados,212,187,25
+35 - 39 años,Fibrosis y cirrosis del hígado,160,133,27
+35 - 39 años,"Neumonía, organismo no especificado",112,71,41
+35 - 39 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",109,83,26
+35 - 39 años,Enfermedad alcohólica del hígado,106,92,14
+35 - 39 años,"Diabetes mellitus, no especificada",92,54,38
+35 - 39 años,Infarto agudo del miocardio,92,55,37
+35 - 39 años,"Disparo de otras armas de fuego, y las no especificadas",82,71,11
+35 - 39 años,"Envenenamiento accidental por, y exposición al alcohol",82,74,8
+35 - 39 años,Trastornos mentales y del comportamiento debidos al uso de alcohol,73,70,3
+35 - 39 años,Tumor maligno del estómago,41,14,27
+35 - 39 años,"Enfermedad por virus de la inmunodeficiencia humana [VIH], sin otra especificación",40,26,14
+35 - 39 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,38,22,16
+35 - 39 años,Agresión con objeto cortante,37,33,4
+35 - 39 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",177,103,74
+35 - 39 años,Otras causas,1280,707,573
+40 - 44 años,Todas las causas,2942,1962,980
+40 - 44 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",246,215,31
+40 - 44 años,Fibrosis y cirrosis del hígado,207,176,31
+40 - 44 años,Exposición a factores no especificados,170,142,28
+40 - 44 años,"Diabetes mellitus, no especificada",159,86,73
+40 - 44 años,Enfermedad alcohólica del hígado,118,103,15
+40 - 44 años,Infarto agudo del miocardio,99,58,41
+40 - 44 años,"Neumonía, organismo no especificado",85,48,37
+40 - 44 años,"Envenenamiento accidental por, y exposición al alcohol",81,73,8
+40 - 44 años,Trastornos mentales y del comportamiento debidos al uso de alcohol,74,70,4
+40 - 44 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",69,62,7
+40 - 44 años,"Disparo de otras armas de fuego, y las no especificadas",60,48,12
+40 - 44 años,Enfermedad renal crónica,57,39,18
+40 - 44 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,54,27,27
+40 - 44 años,Tumor maligno del estómago,53,29,24
+40 - 44 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,49,28,21
+40 - 44 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",192,114,78
+40 - 44 años,Otras causas,1169,644,525
+45 - 49 años,Todas las causas,3138,1885,1253
+45 - 49 años,"Diabetes mellitus, no especificada",232,104,128
+45 - 49 años,Fibrosis y cirrosis del hígado,201,153,48
+45 - 49 años,Exposición a factores no especificados,175,144,31
+45 - 49 años,Infarto agudo del miocardio,164,114,50
+45 - 49 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",159,134,25
+45 - 49 años,Enfermedad alcohólica del hígado,111,89,22
+45 - 49 años,"Neumonía, organismo no especificado",109,59,50
+45 - 49 años,Diabetes mellitus no insulinodependiente,91,39,52
+45 - 49 años,Trastornos mentales y del comportamiento debidos al uso de alcohol,69,58,11
+45 - 49 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",65,53,12
+45 - 49 años,Enfermedad renal crónica,64,40,24
+45 - 49 años,"Envenenamiento accidental por, y exposición al alcohol",61,56,5
+45 - 49 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,55,21,34
+45 - 49 años,Tumor maligno del estómago,53,15,38
+45 - 49 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,49,27,22
+45 - 49 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",200,107,93
+45 - 49 años,Otras causas,1280,672,608
+50 - 54 años,Todas las causas,3725,2157,1568
+50 - 54 años,"Diabetes mellitus, no especificada",339,134,205
+50 - 54 años,Fibrosis y cirrosis del hígado,249,185,64
+50 - 54 años,Infarto agudo del miocardio,215,110,105
+50 - 54 años,Exposición a factores no especificados,179,153,26
+50 - 54 años,"Neumonía, organismo no especificado",151,89,62
+50 - 54 años,Diabetes mellitus no insulinodependiente,126,62,64
+50 - 54 años,"Agresión con disparo de otras armas de fuego, y las no especificadas",117,97,20
+50 - 54 años,Enfermedad alcohólica del hígado,108,91,17
+50 - 54 años,Tumor maligno del estómago,92,40,52
+50 - 54 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,87,39,48
+50 - 54 años,Enfermedad renal crónica,87,53,34
+50 - 54 años,"Envenenamiento accidental por, y exposición al alcohol",64,59,5
+50 - 54 años,Trastornos mentales y del comportamiento debidos al uso de alcohol,62,60,2
+50 - 54 años,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",54,44,10
+50 - 54 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,48,23,25
+50 - 54 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",264,165,99
+50 - 54 años,Otras causas,1483,753,730
+55 - 59 años ,Todas las causas,4322,2319,2003
+55 - 59 años ,"Diabetes mellitus, no especificada",492,193,299
+55 - 59 años ,Infarto agudo del miocardio,292,163,129
+55 - 59 años ,Fibrosis y cirrosis del hígado,256,164,92
+55 - 59 años ,"Neumonía, organismo no especificado",177,91,86
+55 - 59 años ,Diabetes mellitus no insulinodependiente,166,75,91
+55 - 59 años ,Exposición a factores no especificados,155,130,25
+55 - 59 años ,Tumor maligno del hígado y de las vías biliares intrahepáticas,127,63,64
+55 - 59 años ,Enfermedad renal crónica,119,56,63
+55 - 59 años ,Tumor maligno del estómago,118,65,53
+55 - 59 años ,Enfermedad alcohólica del hígado,91,75,16
+55 - 59 años ,"Agresión con disparo de otras armas de fuego, y las no especificadas",78,70,8
+55 - 59 años ,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",68,38,30
+55 - 59 años ,Insuficiencia cardíaca,57,19,38
+55 - 59 años ,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",53,47,6
+55 - 59 años ,Otras gastroenteritis y colitis de origen infeccioso y no especificado,52,24,28
+55 - 59 años ,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",295,159,136
+55 - 59 años ,Otras causas,1726,887,839
+60 - 64 años,Todas las causas,5054,2557,2497
+60 - 64 años,"Diabetes mellitus, no especificada",532,205,327
+60 - 64 años,Infarto agudo del miocardio,402,230,172
+60 - 64 años,Fibrosis y cirrosis del hígado,298,173,125
+60 - 64 años,"Neumonía, organismo no especificado",235,123,112
+60 - 64 años,Diabetes mellitus no insulinodependiente,231,98,133
+60 - 64 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,186,96,90
+60 - 64 años,Enfermedad renal crónica,158,93,65
+60 - 64 años,Exposición a factores no especificados,143,116,27
+60 - 64 años,Tumor maligno del estómago,138,69,69
+60 - 64 años,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",96,50,46
+60 - 64 años,Enfermedad renal crónica,96,43,53
+60 - 64 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,77,25,52
+60 - 64 años,Insuficiencia cardíaca,75,35,40
+60 - 64 años,Enfermedad alcohólica del hígado,68,53,15
+60 - 64 años,"Envenenamiento accidental por, y exposición al alcohol",61,58,3
+60 - 64 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",349,169,180
+60 - 64 años,Otras causas,1909,921,988
+65 - 69 años,Todas las causas,5491,2874,2617
+65 - 69 años,"Diabetes mellitus, no especificada",585,233,352
+65 - 69 años,Infarto agudo del miocardio,472,279,193
+65 - 69 años,"Neumonía, organismo no especificado",307,155,152
+65 - 69 años,Fibrosis y cirrosis del hígado,274,145,129
+65 - 69 años,Diabetes mellitus no insulinodependiente,216,94,122
+65 - 69 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,184,88,96
+65 - 69 años,Tumor maligno del estómago,158,80,78
+65 - 69 años,Enfermedad renal crónica,147,73,74
+65 - 69 años,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",146,79,67
+65 - 69 años,Exposición a factores no especificados,134,107,27
+65 - 69 años,Insuficiencia cardíaca,113,50,63
+65 - 69 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,93,38,55
+65 - 69 años,Otras enfermedades pulmonares obstructivas crónicas,81,48,33
+65 - 69 años,Enfermedad renal crónica,79,47,32
+65 - 69 años,Otras enfermedades cerebrovasculares,70,35,35
+65 - 69 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",446,238,208
+65 - 69 años,Otras causas,1986,1085,901
+70 - 74 años,Todas las causas,5562,2866,2696
+70 - 74 años,Infarto agudo del miocardio,540,278,262
+70 - 74 años,"Diabetes mellitus, no especificada",501,210,291
+70 - 74 años,"Neumonía, organismo no especificado",422,237,185
+70 - 74 años,Fibrosis y cirrosis del hígado,197,107,90
+70 - 74 años,Diabetes mellitus no insulinodependiente,185,81,104
+70 - 74 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,181,79,102
+70 - 74 años,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",175,88,87
+70 - 74 años,Tumor maligno del estómago,162,78,84
+70 - 74 años,Enfermedad renal crónica,138,77,61
+70 - 74 años,Insuficiencia cardíaca,130,75,55
+70 - 74 años,Exposición a factores no especificados,114,89,25
+70 - 74 años,Enfermedad renal crónica,102,52,50
+70 - 74 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,98,44,54
+70 - 74 años,Tumor maligno de la próstata,83,83,0
+70 - 74 años,Hipertensión esencial (primaria),80,41,39
+70 - 74 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",480,243,237
+70 - 74 años,Otras causas,1974,1004,970
+75 - 79 años,Todas las causas,6448,3251,3197
+75 - 79 años,Infarto agudo del miocardio,653,347,306
+75 - 79 años,"Neumonía, organismo no especificado",615,311,304
+75 - 79 años,"Diabetes mellitus, no especificada",505,190,315
+75 - 79 años,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",271,132,139
+75 - 79 años,Diabetes mellitus no insulinodependiente,189,75,114
+75 - 79 años,Tumor maligno del estómago,183,90,93
+75 - 79 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,183,87,96
+75 - 79 años,Insuficiencia cardíaca,172,86,86
+75 - 79 años,Fibrosis y cirrosis del hígado,158,72,86
+75 - 79 años,Enfermedad renal crónica,148,81,67
+75 - 79 años,Otras enfermedades pulmonares obstructivas crónicas,120,62,58
+75 - 79 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,115,61,54
+75 - 79 años,Otras enfermedades cerebrovasculares,105,51,54
+75 - 79 años,Tumor maligno de la próstata,104,104,0
+75 - 79 años,Enfermedad renal crónica,104,59,45
+75 - 79 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",683,333,350
+75 - 79 años,Otras causas,2140,1110,1030
+80 - 84 años,Todas las causas,6870,3456,3414
+80 - 84 años,Infarto agudo del miocardio,786,388,398
+80 - 84 años,"Neumonía, organismo no especificado",773,417,356
+80 - 84 años,"Diabetes mellitus, no especificada",365,136,229
+80 - 84 años,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",343,158,185
+80 - 84 años,Insuficiencia cardíaca,255,123,132
+80 - 84 años,Otras enfermedades pulmonares obstructivas crónicas,168,98,70
+80 - 84 años,Diabetes mellitus no insulinodependiente,155,56,99
+80 - 84 años,Tumor maligno del estómago,134,63,71
+80 - 84 años,Otras gastroenteritis y colitis de origen infeccioso y no especificado,130,69,61
+80 - 84 años,"Desnutrición proteicocalórica, no especificada",129,67,62
+80 - 84 años,Tumor maligno del hígado y de las vías biliares intrahepáticas,124,53,71
+80 - 84 años,Otras enfermedades cerebrovasculares,122,60,62
+80 - 84 años,Hipertensión esencial (primaria),121,55,66
+80 - 84 años,Enfermedad renal crónica,120,60,60
+80 - 84 años,Enfermedad renal crónica,117,72,45
+80 - 84 años,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",875,419,456
+80 - 84 años,Otras causas,2153,1162,991
+85 y más,Todas las causas,10733,5148,5585
+85 y más,Infarto agudo del miocardio,1628,778,850
+85 y más,"Neumonía, organismo no especificado",1507,774,733
+85 y más,Insuficiencia cardíaca,469,205,264
+85 y más,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",449,207,242
+85 y más,"Diabetes mellitus, no especificada",359,147,212
+85 y más,"Desnutrición proteicocalórica, no especificada",358,154,204
+85 y más,Otras enfermedades pulmonares obstructivas crónicas,254,132,122
+85 y más,Hipertensión esencial (primaria),214,85,129
+85 y más,Tumor maligno de la próstata,181,181,0
+85 y más,Otras gastroenteritis y colitis de origen infeccioso y no especificado,171,83,88
+85 y más,Otras enfermedades cerebrovasculares,156,79,77
+85 y más,Tumor maligno del estómago,153,74,79
+85 y más,Enfermedad renal crónica,141,70,71
+85 y más,Exposición a factores no especificados,141,75,66
+85 y más,Enfermedad renal crónica,133,78,55
+85 y más,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",1793,837,956
+85 y más,Otras causas,2626,1189,1437
+Ignorado,Todas las causas,483,305,178
+Ignorado,Exposición a factores no especificados,44,36,8
+Ignorado,"Neumonía, organismo no especificado",35,18,17
+Ignorado,Infarto agudo del miocardio,27,14,13
+Ignorado,"Agresión con disparo de otras armas de fuego, y las no especificadas",19,15,4
+Ignorado,"Diabetes mellitus, no especificada",14,6,8
+Ignorado,Otras gastroenteritis y colitis de origen infeccioso y no especificado,11,3,8
+Ignorado,Enfermedad alcohólica del hígado,10,9,1
+Ignorado,Fibrosis y cirrosis del hígado,9,6,3
+Ignorado,"Accidente vascular encefálico agudo, no especificado como hemorrágico o isquémico",8,6,2
+Ignorado,"Accidente de vehículo de motor o sin motor, tipo de vehículo no especificado",8,6,2
+Ignorado,"Desnutrición proteicocalórica, no especificada",7,4,3
+Ignorado,"Disparo de otras armas de fuego, y las no especificadas",7,5,2
+Ignorado,Agresión por medios no especificados,7,7,0
+Ignorado,"Tuberculosis respiratoria, no confirmada bacteriológica o histológicamente",6,5,1
+Ignorado,Ahogamiento y sumersión no especificados,6,6,0
+Ignorado,"Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",88,54,34
+Ignorado,Otras causas,177,105,72
