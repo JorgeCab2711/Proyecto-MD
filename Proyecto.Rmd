@@ -1,0 +1,129 @@
+---
+title: "Proyecto"
+author: "Stefan Quintana"
+date: "2023-03-23"
+output: html_document
+---
+
+```{r,echo=FALSE}
+library(dplyr)
+library(FrF2)
+library(magrittr)
+library(ungroup)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library (MASS)
+
+datos <- read.csv("C:/Stefan/MineriaDatos/defunciones_combinadas.csv")
+summary(datos)
+str(datos)
+```
+
+Se tienen 6 variables
+Edad <- Variable categórica
+Causa.De.Muerte <- Variable cualitativa
+Total <- Variable cuantitativa
+Hombres <- Variable cuantitativa
+Mujeres <- Variable cuantitativa
+año_info <- Variable categórica
+
+Ahora, se procede a observar si las variables cuantitativas respetan una distribución normal.
+
+### Total
+```{r, echo = FALSE}
+library(nortest)
+hist(datos$Total)
+qqnorm(datos$Total)
+qqline(datos$Total)
+lillie.test(datos$Total)
+```
+Basándose en la gráfica, donde se puede notar que los puntos se alejan de la recta teórica, podemos argumentar que los datos no respetan una distribución normal, lo cuál se confirma en el test Lillie, donde se rechaza la hipótesis nula, por lo tanto, se concluye que los datos no provienen de una distribución normal.
+
+### Hombres
+```{r, echo=FALSE}
+hist(datos$Hombres)
+qqnorm(datos$Hombres)
+qqline(datos$Hombres)
+lillie.test(datos$Hombres)
+```
+Al igual que con los datos Totales, las muertes de los hombres no respetan una distribución normal.
+
+### Mujeres
+```{r, echo=FALSE}
+hist(datos$Mujeres)
+qqnorm(datos$Mujeres)
+qqline(datos$Mujeres)
+lillie.test(datos$Mujeres)
+```
+Al igual que con los datos Totales, las muertes de los hombres no respetan una distribución normal.
+
+Ahora, se crean bases de datos agrupadas por causas de muerte y por año
+```{r, echo=FALSE}
+datos_causa <- datos %>% group_by(Causa.de.muerte) %>% summarize(HombresTot = sum(Hombres), MujeresTot = sum(Mujeres), Tot = sum(Total))
+
+datos_anual <- datos %>% group_by(año_info) %>% summarize(HombresTot = sum(Hombres), MujeresTot = sum(Mujeres), Tot = sum(Total))
+```
+
+Se realiza el análisis de distribución a las mismas variables con las nuevas bases de datos:
+
+## Causa
+
+### Hombres
+```{r, echo=FALSE}
+hist(datos_causa$HombresTot)
+qqnorm(datos_causa$HombresTot)
+qqline(datos_causa$HombresTot)
+lillie.test(datos_causa$HombresTot)
+```
+Se revela con el test y con las gráficas que las muertes de los hombres no respetan una distribución normal si se agrupan por causa.
+
+
+### Mujeres
+```{r, echo=FALSE}
+hist(datos_causa$MujeresTot)
+qqnorm(datos_causa$MujeresTot)
+qqline(datos_causa$MujeresTot)
+lillie.test(datos_causa$MujeresTot)
+```
+Se revela con el test y con las gráficas que los decesis de las mujeres no respetan una distribución normal si se agrupan por causa.
+
+### Total
+```{r, echo=FALSE}
+hist(datos_causa$Tot)
+qqnorm(datos_causa$Tot)
+qqline(datos_causa$Tot)
+lillie.test(datos_causa$Tot)
+```
+Al igual que con los datos pasados el total de decesos no respeta una distribución normal si son agrupadas por causa.
+
+## Año
+
+### Hombres
+```{r, echo=FALSE}
+hist(datos_anual$HombresTot)
+qqnorm(datos_anual$HombresTot)
+qqline(datos_anual$HombresTot)
+lillie.test(datos_anual$HombresTot)
+```
+Ya que el valor-p en el test de Lillie es mayor a 0.05 no se puede concluir que los decesos de los hombres no respetan una distribución normal si se agrupan por año.
+
+### Mujeres
+```{r, echo=FALSE}
+hist(datos_anual$MujeresTot)
+qqnorm(datos_anual$MujeresTot)
+qqline(datos_anual$MujeresTot)
+lillie.test(datos_anual$MujeresTot)
+
+```
+Al igual que con los decesos de los hombres, no se puede concluir que las muertes de las mujeres no respetan una distribución normal.
+
+### Total
+```{r, echo=FALSE}
+hist(datos_anual$Tot)
+qqnorm(datos_anual$Tot)
+qqline(datos_anual$Tot)
+lillie.test(datos_anual$Tot)
+```
+
+Con un valor-p mayor a 0.05 no se puede concluir que el Total de decesos no se ajusta a una distribución normal si se agrupan por año.
