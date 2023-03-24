@@ -8,6 +8,17 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2)
 library (MASS)
+#librerias para el clustering
+library(cluster) #Para calcular la silueta
+library(e1071)#para cmeans
+library(mclust) #mixtures of gaussians
+library(fpc) #para hacer el plotcluster
+library(NbClust) #Para determinar el número de clusters óptimo
+library(factoextra) #Para hacer gráficos bonitos de clustering
+library(hopkins) #Para revisar si vale la pena hacer agrupamiento
+library(GGally) #Para hacer el conjunto de graficos
+library(FeatureImpCluster) #Para revisar la importancia de las variables en los grupos.
+library(pheatmap) #Para hacer mapa de calor
 
 datos <- read.csv("./defunciones_combinadas.csv")
 summary(datos)
@@ -57,8 +68,8 @@ datos_filtrados <- datos %>%
   ungroup()
 
 tabla_frecuencia <- table(datos_filtrados$Causa.de.muerte, datos_filtrados$año_info)
-
 tabla_frecuencia <- as.data.frame(tabla_frecuencia)
+
 
 library(knitr)
 kable(tabla_frecuencia, caption = "Tabla de frecuencia de Causa de muerte y años")
@@ -91,8 +102,118 @@ for (i in unique(tabla_frecuencia$Var1)) {
   # Imprimir el gráfico
   print(grafico)
 }
+```
 
+##Clustering 
 
+```{r hopkins} 
+##primero debemos de volver numericas nuestras variables y finalmente escalarlas
+
+Causa.de.muerte <- as.numeric(tabla_frecuencia[,"Var1"])
+Total <- as.numeric(tabla_frecuencia[,"Freq"])
+año_info <- as.numeric(tabla_frecuencia[,"Var2"])
+
+datosc <- data.frame(Causa.de.muerte,año_info,Total)
+
+#Escalar los datos
+datosCS <- scale(na.omit(datosc))
+```
+
+###estadistico de hopkins
+```{r}
+hopkins(datosCS)
+datos_dist<- dist(datosCS)
 
 ```
+El valor del estadístico de hopkins está alejado de 0.5 por lo que los datos no son aleatorios hay altas posibilidades de que sea factible el agrupamiento.  
+
+```{r}
+#Matriz de distancia
+datos_dist<- dist(datosCS)
+fviz_dist(datos_dist, show_labels = F)
+```
+
+Como se puede observar en la VAT sí se observan ciertos patrones por lo que se ratifica lo que arroja el estadístico de hopkings.  
+
+#Cantidad de grupo que debemos de hacer
+```{r metodo de codo factoextra}
+
+fviz_nbclust(datosCS, kmeans, method = "wss") +
+labs(subtitle = "Metodo del codo")
+```
+
+```{r silueta factoextra}
+fviz_nbclust(datosCS, kmeans, method = "silhouette") +
+labs(subtitle = "Método de la silueta")
+
+```
+
+Luego de analizar los algoritmos se determino que el numero de agrupaciones debia de ser 5. 
+
+Pasamos a agrupar por medio de K-medias
+
+### K-Medias  
+```{r}
+km<-kmeans(datosCS,5,iter.max =100)
+plotcluster(datosCS,km$cluster) 
+km
+```
+
+Como se observa en la imagen, el primer paso es escoger el numero de grupos K, en este caso fue 5 tal como se justificó anteriormente, posterior a ello se establecen k centroides en el espacio de datos.
+
+```{r}
+fviz_cluster(km, data = datosCS,geom = "point", ellipse.type = "norm")
+```
+
+```{r}
+silkm<-silhouette(km$cluster,dist(datosCS))
+mean(silkm[,3]) 
+Kmean<-mean(silkm[,3]) 
+```
+
+
+#### Cluster jerarquico
+
+```{r}
+matriz_dist<- dist(datosCS)
+hc<-hclust(datos_dist, method = "ward.D2") #Genera el clustering jerarquico de los datos
+plot(hc, cex=0.5, axes=FALSE) #Genera el dendograma
+cutree(hc, h = 5)
+rect.hclust(hc,k=5)
+groups<-cutree(hc,k=5) #corta el dendograma, determinando el grupo de cada fila
+```
+
+
+```{r}
+silhc<-silhouette(groups,datos_dist)
+mean(silhc[,3]) 
+Jerarquico<-mean(silhc[,3]) 
+```
+
+Como se observa la silueta del algoritmo cluster jerárquico fue de `r mean(silhc[,3])`, indicando que la agrupación no es la mejor.
+
+El gráfico de la silueta de K-means sería el siguiente:
+```{r}
+plot(silkm, cex.names=.4, col=1:4, border=NA)
+```
+
+
+Y el gráfico de la silueta de Jerargico sería: 
+```{r}
+plot(silhc, cex.names=.4, col=1:4, border = NA)
+```
+
+Al recopilar el promedio de los datos obtenemos:
+```{r}
+df <- data.frame(Algoritmo=c("K-mean", "Jerarquico"),
+                Silueta=c(Kmean, Jerarquico))
+df
+```
+
+##Correlacion de variables final
+```{r}
+ggpairs(datosc)
+```
+```
+
 
