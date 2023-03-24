@@ -332,6 +332,7 @@ plot(hc, cex=0.5, axes=FALSE) #Genera el dendograma
 #cutree(hc, h = 5)
 rect.hclust(hc,k=5)
 groups<-cutree(hc,k=5) #corta el dendograma, determinando el grupo de cada fila
+datosc$gruposHC<-groups
 ```
 
 
@@ -342,6 +343,28 @@ Jerarquico<-mean(silhc[,3])
 ```
 
 Como se observa la silueta del algoritmo cluster jerárquico fue de `r mean(silhc[,3])`, indicando que la agrupación no es la mejor.
+
+Es importante analizar el tamaño resultante de cada grupo, los cuales se presentan en la siguiente tabla
+```{r}
+table(groups)
+```
+Como podemos observar 3 de los 5 grupos resultaron balanceados, y de los otros 2, uno resultó con un tamaño mucho menor que lo esperado y otro mucho mayor de lo esperado. Seguiremos analizando las medias de la variable años en cada grupo. Se analiza solo esta variable ya que no tiene sentido evaluar la media a una variable no numerica como es la causa, ya que no presenta un orden.
+
+
+```{r media en los grupos cluster jerarquico}
+
+by(datosc[,2:3],datosc[,"gruposHC"], colMeans)
+```
+Como podemos observar en los resultados anteriores, en el grupo 1 se tiene una media en para años de aproximadamente 4, que es el numero asignado para el año 2012, para el grupo 2 resultó que la media de las muertes resultan en el año 2016, para el grupo 3 resulto una media alrededor del año 2013, para el grupo 4 al igual que el grupo 1 resulto que la media de muertes sucedio de igual manera en el año 2012 y atípicamente en el grupo 5 resulto una muerte media en el año 2017. Por otro lado, la media de la cantidad de muertes por causa resultó de 1.28 para el grupo 1, una media de 5.5 muertes por caso en el grupo 2, una media de 24.86 muertes por caso en el grupo 3, una media de 1.8 muertes por caso en el grupo 4 y una media de 2.04 muertes por causa en el grupo 5.
+
+A continuación se presenta un dendograma visualizado de forma horizontal para poder diferenciar los grupos. Podemos observar de forma visual que el grupo de color aqua(grupo entre el color azul y verde) es bastante pequeño, resulta dificil de identificar, ya que a su lado el grupo de color verde, es el que tiene mayor tamaño.
+
+```{r análisis e interpretación de los grupos}
+fviz_dend(hc,k=5, cex = .2, horiz = T)
+```
+
+
+
 
 El gráfico de la silueta de K-means sería el siguiente:
 ```{r}
