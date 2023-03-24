@@ -1,7 +1,7 @@
 ---
-title: "Proyecto"
-author: "Stefan Quintana"
-date: "2023-03-23"
+title: "Proyecto 1: Analisis Exporatorio y Clustering"
+author: "Stefan Quintana, Sofía Escobar, Jorge Caballeros, Wilfredo Gallegos"
+date: "2023-03-24"
 output: html_document
 ---
 

@@ -1,3 +1,9 @@
+---
+title: "Proyecto 1: Analisis Exporatorio y Clustering"
+author: "Stefan Quintana, Sofía Escobar, Jorge Caballeros, Wilfredo Gallegos"
+date: "2023-03-24"
+output: html_document
+---
 
 ```{r,echo=FALSE}
 library(dplyr)
@@ -77,8 +83,6 @@ kable(tabla_frecuencia, caption = "Tabla de frecuencia de Causa de muerte y año
 ```
 
 Ahora graficamos la tabla por cada causa de muerte:
-
-
 ```{r}
 
 
@@ -108,7 +112,7 @@ Podemos observar en las gráficas anteriores que hay causas de muerte en las cua
 
 
 ##Clustering 
-
+Para poder hacer un clustering efectivo debemos de tener todas nuestras variables de forma numerica y normalizadas.
 ```{r hopkins} 
 ##primero debemos de volver numericas nuestras variables y finalmente escalarlas
 
@@ -122,7 +126,9 @@ datosc <- data.frame(Causa.de.muerte,año_info,Total)
 datosCS <- scale(na.omit(datosc))
 ```
 
-###estadistico de hopkins
+Luego de la normalizacion de los datos obtenemos un estadistico de Hopkins para determinar el agrupamiento puede ser factible.
+
+##Estadistico de hopkins
 ```{r}
 hopkins(datosCS)
 datos_dist<- dist(datosCS)
@@ -138,7 +144,9 @@ fviz_dist(datos_dist, show_labels = F)
 
 Como se puede observar en la VAT sí se observan ciertos patrones por lo que se ratifica lo que arroja el estadístico de hopkings.  
 
-#Cantidad de grupo que debemos de hacer
+Al determinar que si es posible realizar un agrupamiento, determinamos de dos maneras cuantas agripaciones debeiamos de utilizar.
+
+####Cantidad de grupo que debemos de hacer
 ```{r metodo de codo factoextra}
 
 fviz_nbclust(datosCS, kmeans, method = "wss") +
@@ -152,6 +160,8 @@ labs(subtitle = "Método de la silueta")
 ```
 
 Luego de analizar los algoritmos se determinó que el numero de agrupaciones debía de ser de 5, ya que segun el método del codo y el método del a silueta, esta cantidad es la más óptima. Luego de este análisis procedemos a  agrupar por medio de K-medias
+
+Agrupamos por medio de 2 distintos tipos algoritmos de agrupación:
 
 ### K-Medias  
 ```{r}
@@ -211,11 +221,8 @@ df <- data.frame(Algoritmo=c("K-mean", "Jerarquico"),
                 Silueta=c(Kmean, Jerarquico))
 df
 ```
+Se puede observar que el cluster jerárquico fue el que obtuvo el mejor resultado en la prueba de silueta pero que el algorito Kmeans es mayor que el Jerarguico por 0.5 puntos. Al observar los valores de las siluetas observamos que no es la mejor agrupacion pero que no es mala de igua forma. Tambien observamos que en los grupos de ambas siluetas hay elementos mal ubicados ya que hay valores negativos dentro de las siluetas.
 
-##Correlacion de variables final
-```{r}
-ggpairs(datosc)
-```
 ```
 
 
