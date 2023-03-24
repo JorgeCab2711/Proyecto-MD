@@ -185,7 +185,7 @@ tabla_frecuencia <- as.data.frame(tabla_frecuencia)
 
 
 library(knitr)
-kable(tabla_frecuencia, caption = "Tabla de frecuencia de Causa de muerte y años")
+#kable(tabla_frecuencia, caption = "Tabla de frecuencia de Causa de muerte y años")
 
 ```
 
@@ -329,7 +329,7 @@ A partir de los 2 gráficos anteriores, podemos observar que los datos separados
 matriz_dist<- dist(datosCS)
 hc<-hclust(datos_dist, method = "ward.D2") #Genera el clustering jerarquico de los datos
 plot(hc, cex=0.5, axes=FALSE) #Genera el dendograma
-cutree(hc, h = 5)
+#cutree(hc, h = 5)
 rect.hclust(hc,k=5)
 groups<-cutree(hc,k=5) #corta el dendograma, determinando el grupo de cada fila
 ```
