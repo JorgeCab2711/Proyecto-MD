@@ -1,0 +1,98 @@
+
+```{r,echo=FALSE}
+library(dplyr)
+library(FrF2)
+library(magrittr)
+library(ungroup)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library (MASS)
+
+datos <- read.csv("./defunciones_combinadas.csv")
+summary(datos)
+str(datos)
+```
+
+Se tienen 6 variables
+
+Edad <- Variable categórica\r\n
+
+Causa.De.Muerte <- Variable cualitativa\r\n
+
+Total <- Variable cuantitativa\r\n
+
+Hombres <- Variable cuantitativa\r\n
+
+Mujeres <- Variable cuantitativa\r\n
+
+año_info <- Variable categórica\r\n
+
+## Análisis de las Variables
+
+
+
+Algunas preguntas interesantes que pueden surgir son:\r\n
+
+* ¿Cuál es la causa de muerte más común en el dataset?
+
+
+* ¿Cómo ha cambiado la tasa de mortalidad a lo largo de los años en el dataset?
+
+
+* ¿Existen patrones estacionales en las causas de muerte?
+
+
+Discutiendo se pudo llegar a la siguiente incognita en específico la cual es nuestro tema de investigación para esta base de datos.
+
+**Como ha evolucionado la causa de muerte en el periodo de 2009 a 2019** 
+
+Para poder responder la pregunta primero debemos de realizar gráficos del comportamiento de cada causa de muerte en cada año.
+```{r}
+library(dplyr)
+
+datos_filtrados <- datos %>%
+  group_by(año_info, Causa.de.muerte) %>%
+  filter(n() == max(n())) %>%
+  ungroup()
+
+tabla_frecuencia <- table(datos_filtrados$Causa.de.muerte, datos_filtrados$año_info)
+
+tabla_frecuencia <- as.data.frame(tabla_frecuencia)
+
+library(knitr)
+kable(tabla_frecuencia, caption = "Tabla de frecuencia de Causa de muerte y años")
+
+```
+
+Ahora graficamos la tabla por cada causa de muerte:
+
+
+```{r}
+
+
+# Ciclo para crear un histograma por cada causa de muerte
+for (i in unique(tabla_frecuencia$Var1)) {
+  
+  # Filtrar los datos por causa de muerte
+  datos_causa_muerte <- filter(tabla_frecuencia, Var1 == i)
+  
+  # Crear el gráfico de histograma
+  grafico <- ggplot(data = datos_causa_muerte, aes(x = Var2, y = Freq)) +
+    geom_bar(stat = "identity", fill = "blue") +
+    ggtitle(paste0("Frecuencia de ", i, " por año")) +
+    xlab("Año") + ylab("Frecuencia") +
+    theme(plot.title = element_text(size = 20, face = "bold"),
+          axis.title.x = element_text(size = 16),
+          axis.title.y = element_text(size = 16),
+          axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14))
+  
+  # Imprimir el gráfico
+  print(grafico)
+}
+
+
+
+```
+
