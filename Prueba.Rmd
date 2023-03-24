@@ -104,6 +104,9 @@ for (i in unique(tabla_frecuencia$Var1)) {
 }
 ```
 
+Podemos observar en las gráficas anteriores que hay causas de muerte en las cuales su frecuencia de ocurrecia es en un año en particular, y muchos de estos son frecuencias de baja incidencia, tal sería el caso por ejemplo de la muerte causada por afecciones respiratorias(gráfica 3), que tuvo una ocurrencia en el año 2015, también el de ahorcamientos o estrangulamientos(gráfica 10) con una ocurrencia de un evento por año en los años 2009 y 2010, la frecuencia de muerte por amiloidosis(gráfica 11) de 3 veces en el año 2015, la frecuencia de apendicitis aguda(gráfica 13) en el año 2017, la frecuencia de muerte por Ascariasis(gráfica 14) de 1 vez en el año 2012 y asi entre muchas, de las cuales 31 de todas las causas tienen incidencia en 2 o menos años.
+
+
 ##Clustering 
 
 ```{r hopkins} 
@@ -148,9 +151,7 @@ labs(subtitle = "Método de la silueta")
 
 ```
 
-Luego de analizar los algoritmos se determino que el numero de agrupaciones debia de ser 5. 
-
-Pasamos a agrupar por medio de K-medias
+Luego de analizar los algoritmos se determinó que el numero de agrupaciones debía de ser de 5, ya que segun el método del codo y el método del a silueta, esta cantidad es la más óptima. Luego de este análisis procedemos a  agrupar por medio de K-medias
 
 ### K-Medias  
 ```{r}
@@ -171,8 +172,9 @@ mean(silkm[,3])
 Kmean<-mean(silkm[,3]) 
 ```
 
+A partir de los 2 gráficos anteriores, podemos observar que los datos separados en 5 grupos se presentan juntos entre si, podemos observar que la intersección entre cada uno de los 5 grupos es mínima, lo cual puede ser un buen indicador para nuestro agrupamiento. Esto puede ser evaluado de mejor manera a traves de un Cluster jerárquico.
 
-#### Cluster jerarquico
+#### Cluster jerárquico
 
 ```{r}
 matriz_dist<- dist(datosCS)
